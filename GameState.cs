@@ -71,7 +71,7 @@ namespace TetrisWPF
             }
         }
 
-        public void MoveBlcokRight()
+        public void MoveBlockRight()
         {
             CurrentBlock.Move(0, 1);
 
