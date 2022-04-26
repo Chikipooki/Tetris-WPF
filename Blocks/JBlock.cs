@@ -8,6 +8,7 @@ namespace TetrisWPF
 {
     public class JBlock : Block
     {
+        // bug 
         private readonly Position[][] tiles = new Position[][]
        {
             new Position[] { new (0,0), new (1,0), new (1,1), new (1,2) },

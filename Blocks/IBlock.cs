@@ -8,6 +8,7 @@ namespace TetrisWPF
 {
     public class IBlock : Block
     {
+        // Bug here
         private readonly Position[][] tiles = new Position[][]
         {
             new Position[] { new (1,0), new (1,1), new (1,2), new (1,3) },
