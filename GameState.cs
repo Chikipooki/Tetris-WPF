@@ -33,8 +33,8 @@ namespace TetrisWPF
         public GameGrid GameGrid { get; }
         public BlockQueue BlockQueue { get; }
         public bool GameOver { get; private set; }
-
         public int Score { get; private set; }
+
 
         public GameState()
         {
