@@ -10,6 +10,7 @@
         Foreground="White"
         FontFamily="Sagoe UI Light" FontSize="28"
         KeyDown="Window_KeyDown">
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -89,9 +90,7 @@
                         Margin="0,20,0,0"
                         Padding="5"
                         Click="PlayAgain_Click"/>
-
             </StackPanel>
         </Grid>
-
-        </Grid>
+    </Grid>
 </Window>
