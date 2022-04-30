@@ -182,7 +182,7 @@ namespace TetrisWPF
                 case Key.X:
                     gameState.HoldBlock();
                     break;
-                case Key.C:
+                case Key.Space:
                     gameState.DropBlock();
                     break;
                 default:
