@@ -151,6 +151,9 @@ namespace TetrisWPF
                 case Key.Z:
                     gameState.RotateBlcokCCW();
                     break;
+                case Key.X:
+                    gameState.HoldBlock();
+                    break;
                 default:
                     return;
             }
